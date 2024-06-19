@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cart complette ecommerce</title>
+  </head>
+  <body>
+    <div class="top_nav">
+      <div class="container top_nav_container">
+        <div class="top_nav_wrapper">
+          <p class="top_nav_p">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="top_nav_link">ShopNow</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="container nav_container">
+        <a href="#" class="nav_logo">EXCLUSIVE</a>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="/" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+          <li class="nav_item">
+            <a href="/sign-up.html" class="nav_link">Sign up</a>
+          </li>
+        </ul>
+        <div class="nav_items">
+          <form action="#" class="nav_form">
+            <input
+              type="text"
+              class="nav_input"
+              placeholder="What are you looking for?"
+            />
+            <img src="./img/search.png" alt="search" class="nav_search" />
+          </form>
+          <img src="./img/heart.png" alt="heart" class="nav_heart" />
+          <a href="/cart.html">
+            <img src="./img/cart.png" alt="cart" class="nav_cart" />
+          </a>
+        </div>
+        <span class="hamburger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div class="mobile_nav mobile_nav_hide">
+      <ul class="mobile_nav_list">
+        <li class="mobile_nav_item">
+          <a href="/" class="mobile_nav_link">Home</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link">Contact</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link">About</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/cart.html" class="mobile_nav_link">Cart</a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="cart">
+          <div class="cart_header">
+            <p class="cart_header_title">Product ID</p>
+            <p class="cart_header_img">Product Title</p>
+            <p class="cart_header_title">Product Image</p>
+            <p class="cart_header_title">Price</p>
+            <p class="cart_header_title">Delete</p>
+          </div>
+          <div class="cart_items"></div>
+          <div class="cart_total">
+            <p class="cart_total_p">Total: $2000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_item">
+          <a href="" class="footer_logo">Exclusive</a>
+          <div class="footer_p">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+            ipsam molestias itaque consectetur. Maiores sunt dolorem doloribus
+            minima vitae? Quo quam, dolorem id recusandae beatae iste
+            accusantium quae maiores temporibus!
+          </div>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_title">Support</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item">Stockhalm sweden</li>
+            <li class="li footer_list_item">exclusive@gmail.com</li>
+            <li class="li footer_list_item">+88015-88888-9999</li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_title">Account</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item">My Account</li>
+            <li class="li footer_list_item">Login / Register</li>
+            <li class="li footer_list_item">Cart</li>
+            <li class="li footer_list_item">Wishlist</li>
+            <li class="li footer_list_item">Shop</li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_title">Quick Link</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item">Privacy Policy</li>
+            <li class="li footer_list_item">Terms Of Use</li>
+            <li class="li footer_list_item">FAQ</li>
+            <li class="li footer_list_item">Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container footer_bottom_container">
+          <p class="footer_copy">
+            Copyright Exclusive 2023. All right reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/cart.js"></script>
+  </body>
+</html>
